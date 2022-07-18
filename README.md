@@ -6,8 +6,14 @@ Developed in **node** version **12**. Not tested in previous node versions.
 
 Usage:
 ```bash
-$ node index <file_to_be_parsed.csv> <column_to_be_parsed_1> <column_to_be_parsed_2> <...> 
+python3 index.py --f [file_to_be_parsed.csv] --c [column_to_be_parsed_1], [column_to_be_parsed_2],[...] 
 ```
+
+### Params:
+```--f, --file``` &nbsp; &nbsp;File name of csv to be parsed. Ex: names.csv
+
+```--c, --columns``` &nbsp;&nbsp; Column names to be used in wordlist
+
 
 The option ```--non-verbose```  was avaliable to supress the outputs in console.
 
