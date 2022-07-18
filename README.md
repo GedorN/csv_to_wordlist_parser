@@ -2,7 +2,7 @@
 
 Parse a csv file to wordlist with '\n' as line break
 
-Developed in **node** version **12**. Not tested in previous node versions.
+Developed in **python 3**. Not tested in previous python versions.
 
 Usage:
 ```bash
